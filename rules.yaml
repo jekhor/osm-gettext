@@ -1,0 +1,13 @@
+-
+        :type:  any
+        :match: "e.highway.nil?"
+        :tags:
+                - 'name'
+                - 'description'
+
+-
+        :type:  relation
+        :match: "e['type'] == 'route'"
+        :tags:
+                - 'line'
+                - 'operator'

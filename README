@@ -1,0 +1,6 @@
+1. Install georuby, xmlparser (gem install GeoRuby, aptitude install libxml-parser-ruby1.8).
+2. Get OSM file with JOSM or via OSM API.
+3. Do ./osm2po.rb <osm file> <lang code> > <file.po>
+4. Translate
+5. Do ./po2osm.rb <source osm file> <po file> <lang code> > <result.osm>
+6. Upload result with JOSM.
